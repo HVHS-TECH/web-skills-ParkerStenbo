@@ -1,3 +1,21 @@
 body {
-    background-color: lightblue;
-  }
+    /*background-color: rgb(255, 255, 255);*/
+}
+.cover {
+  color: #006CA5;
+  width: 101.4%;
+  background-color: #cecece;
+  margin-left: -1%;
+  color: #006CA5;
+  height: 800px;
+  background-image: url('https://codehs.com/uploads/d0bdde8e44a95e7dbeeaa88c5952326a');
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 50% 10%;
+  background-attachment: fixed;
+  /*img {
+      z-index:-1;
+      width: 70%;
+  }*/
+}
