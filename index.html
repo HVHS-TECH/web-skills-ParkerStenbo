@@ -12,7 +12,7 @@
 
 #cover {
   color: #006CA5;
-  width: 101.1%;
+  width: 101.4%;
   background-color: #006CA5;
   margin-left: -1%;
   margin-top: -10px;
@@ -75,19 +75,61 @@
   margin-top: -55px;
   height: 33%;
 }
+.head {
+  margin-top: -20px;
+  position: sticky;
+  top:0px;
+  background-color: #cecece;
+  height: 150px;
+  width:101.4%;
+  margin-left: -1%;
+}
+.NavBarText {
+  text-align: center;
+}
+.tablink {
+    margin-top: 105px;
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
 .spacer {
   height: 100px;
 }
 .mainBody {
-  background-color: #cecece;
+  background-color: #5b745c;
   background-attachment: fixed;
   background-repeat: repeat;
   background-image: 
-  radial-gradient(circle,#006CA5 5px, transparent 0),
-  radial-gradient(circle,#006CA5 5px, transparent 0);
+  radial-gradient(circle,#f3d8a5 5px, transparent 0),
+  radial-gradient(circle,#f3d8a5 5px, transparent 0);
   background-size: 25px 50px;
   background-position: 0 0px, 10px 25px;
   height: 900px;
+  width: 101.4%;
+  margin-left:-1%
 }
 </style>
 
@@ -97,6 +139,15 @@
     <div id="CoverTextOutline">
       <h1 id="CoverText">PARKERS     WEBSITE</h1>
       <h1 id="CoverTextW"> W </h1>
+    </div>
+  </div>
+  <div class="head">
+    <h1 class="NavBarText">awesome nav bar</h1>
+    <div class="headerLinks">
+      <button class="tablink" onclick="openPage('home', this, '#006CA5')" id="defaultOpen">Home</button>
+      <button class="tablink" onclick="openPage('Page1', this, '#006CA5')" >page1</button>
+      <button class="tablink" onclick="openPage('page2', this, '#006CA5')">page2</button>
+      <button class="tablink" onclick="openPage('page3', this, '#006CA5')">page3</button>
     </div>
   </div>
   <div class="mainBody">
