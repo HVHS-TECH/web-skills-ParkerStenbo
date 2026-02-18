@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=en> 
 <head>
-  <title>My cool page</title>
+  <title>W website</title>
   <!--link href="styles.css" rel="stylesheet"-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,7 +9,9 @@
 </head>
 
 <style>
-
+body{
+  background-color: #5b745c;
+}
 #cover {
   color: #006CA5;
   width: 101.4%;
@@ -76,10 +78,13 @@
   height: 33%;
 }
 .head {
-  margin-top: -20px;
+  font-family: 'Arial Black';
+  font-size: 20px;
+  margin-top: -27px;
   position: sticky;
   top:0px;
-  background-color: #cecece;
+  color: #006CA5;
+  background-color: #f3d8a5;
   height: 150px;
   width:101.4%;
   margin-left: -1%;
@@ -88,8 +93,11 @@
   text-align: center;
 }
 .tablink {
-    margin-top: 105px;
+    margin-top: 20px;
     background-color: #555;
+    font-family: 'Arial';
+    text-decoration-line: none;
+    font-weight: 0;
     color: white;
     float: left;
     border: none;
@@ -98,6 +106,15 @@
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+}
+.PageLink {
+  font-family: 'Arial';
+  text-align:left;
+  text-decoration-line: none;
+  font-weight: 0;
+  color: white;
+  margin-left:-16px;
+  padding: 14px 50%;
 }
 .tablink:hover {
     background-color: #777;
@@ -123,13 +140,17 @@
   background-attachment: fixed;
   background-repeat: repeat;
   background-image: 
-  radial-gradient(circle,#f3d8a5 5px, transparent 0),
-  radial-gradient(circle,#f3d8a5 5px, transparent 0);
+  radial-gradient(circle,#85ad87 5px, transparent 0),
+  radial-gradient(circle,#85ad87 5px, transparent 0);
   background-size: 25px 50px;
   background-position: 0 0px, 10px 25px;
   height: 900px;
   width: 101.4%;
-  margin-left:-1%
+  margin-left:-1%;
+  text-align:center;
+  font-family:"arial";
+  font-size:50px;
+  color:#f3d8a5;
 }
 </style>
 
@@ -144,14 +165,14 @@
   <div class="head">
     <h1 class="NavBarText">awesome nav bar</h1>
     <div class="headerLinks">
-      <button class="tablink" onclick="openPage('home', this, '#006CA5')" id="defaultOpen">Home</button>
-      <button class="tablink" onclick="openPage('Page1', this, '#006CA5')" >page1</button>
-      <button class="tablink" onclick="openPage('page2', this, '#006CA5')">page2</button>
-      <button class="tablink" onclick="openPage('page3', this, '#006CA5')">page3</button>
+      <button class="tablink" ><a class="PageLink" href="index.html">Home</a></button>
+      <button class="tablink" ><a class="PageLink" href="Gallery.html" >Gallery</a></button>
+      <button class="tablink">page2</button>
+      <button class="tablink" href="">page3</button>
     </div>
   </div>
   <div class="mainBody">
   <div class="spacer"></div>
+  Yo so there's currently nothing here. sorry :3
   </div>
-  <div class="spacer">a</div>
 </html>
