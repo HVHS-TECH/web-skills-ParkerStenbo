@@ -22,12 +22,13 @@ body{
   height: 600px;
   background-repeat:no-repeat;
   background-image: url('grass.jpg');
-  background-size: 100%;
+  background-size:100%;
   background-position: 0px 0px;
+  min-width: 1200px;
   /*min-height: 500px;
   background-size: 150%;
   background-position: 50% 10%;*/
-  background-attachment: fixed;
+  background-attachment: none;
   /*background-repeat: repeat;
   background-image: 
   radial-gradient(circle,#cecece 5px, transparent 0),
@@ -135,6 +136,9 @@ body{
 .spacer {
   height: 100px;
 }
+.secondarySpacer {
+  height: 50px;
+}
 .mainBody {
   background-color: #5b745c;
   background-attachment: fixed;
@@ -151,6 +155,20 @@ body{
   font-family:"arial";
   font-size:50px;
   color:#f3d8a5;
+}
+.paragraph {
+  font-family:"arial black";
+  background-color: #f3d8a5;
+  color: #5b745c;
+  width: 70%;
+  min-width: 500px;
+  margin:auto;
+  padding: 15px 30px;
+  border-radius:30px;
+  font-size: 20px;
+}
+#Heading {
+  font-size: 50px;
 }
 </style>
 
@@ -172,7 +190,16 @@ body{
     </div>
   </div>
   <div class="mainBody">
-  <div class="spacer"></div>
-  Yo so there's currently nothing here. sorry :3
+    <div class="spacer"></div>
+    <div class="paragraph" id="Heading">
+      INTRODUCTION TO MYSELF
+    </div>
+    <div class="secondarySpacer"></div>
+    <div class="paragraph">
+      My name is Parker Stenbo. I was born in Aukland in 2010 and moved to aukland january 2019. 
+      <br> I like to think of myself as that one annoying npc/side character that is just there no matter what you do.
+      <br> I played piano between ages 5 and 14 and got up to NZMEB grade 4. I'm not intensly trying to get better at music, but I still take flute lessons.
+      <br> As for my intrests, I'm fairly keen on anything computer related, but I'm especially passionate on digital animation, this obsesison is paired with one of military aircraft.
+    </div>
   </div>
 </html>
