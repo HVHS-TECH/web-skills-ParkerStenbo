@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang=en> 
 <head>
+  <title>W website</title>
   <meta charset="UTF-8">
-  <title>W gallery</title>
   <!--link href="styles.css" rel="stylesheet"-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
 
 <style>
 body{
@@ -40,7 +41,6 @@ body{
       width: 70%;
   }*/
 }
-
 #CoverTextOutline{
   background-color: #f3d8a5;
   margin:auto;
@@ -134,6 +134,9 @@ body{
 .spacer {
   height: 100px;
 }
+.secondarySpacer {
+  height: 50px;
+}
 .mainBody {
   background-color: #5b745c;
   background-attachment: fixed;
@@ -143,28 +146,41 @@ body{
   radial-gradient(circle,#85ad87 5px, transparent 0);
   background-size: 25px 50px;
   background-position: 0 -2px, 10px 23px;
-  height: 750px;
+  height: 1130px;
   width: 101.4%;
-  margin-left:-1%
+  margin-left:-1%;
+  text-align:center;
+  font-family:"arial";
+  font-size:50px;
+  color:#f3d8a5;
 }
-img {
-  margin-left:20px;
-  margin-top: 20px;
+.paragraph {
+  font-family:"arial black";
+  background-color: #f3d8a5;
+  color: #5b745c;
+  width: 70%;
+  min-width: 500px;
+  margin:auto;
+  padding: 15px 30px;
+  border-radius:30px;
+  font-size: 20px;
 }
-.ImageContainer {
-  Margin-left: 1%;
+#Heading {
+  font-size: 50px;
 }
 </style>
 
-</head>
 
+
+
+</head>
 
 
 <body>
   <div id="cover">
     <div id="CoverSpacer"></div>
     <div id="CoverTextOutline">
-      <h1 id="CoverText">PARKERS    GALLERY</h1>
+      <h1 id="CoverText">PARKERS      WEBSITE</h1>
       <h1 id="CoverTextW"> W </h1>
     </div>
   </div>
@@ -178,9 +194,11 @@ img {
     </div>
   </div>
   <div class="mainBody">
-  <div class="ImageContainer">
-  <a href="images/BigImage/BigTree.jpg" target="_blank"><img src="images/ReResImage/TreeRe-Res.png" alt="big tree"></a> <a href="images/BigImage/BigForest.jpg" target="_blank" ><img src="images/ReResImage/ForestRe-Res.png" alt="forest" ></a> <a href="images/BigImage/BigCity.jpg" target="_blank"><img src="images/ReResImage/CityRe-Res.png" alt="city"></a> <br>
-  <a href="images/BigImage/BigMountain.jpg" target="_blank"><img src="images/ReResImage/MountainRe-Res.png" alt="a mountain"></a> <a href="images/BigImage/BigHouse.jpg" target="_blank"><img src="images/ReResImage/HouseRe-Res.png" alt="a house in a cliff"></a> <a href="images/BigImage/BigGuy.jpg" target="_blank"><img src="images/ReResImage/GuyRe-Res.png" alt="a guy"></a>
+    <div class="spacer"></div>
+    <div class="paragraph" id="Heading">
+      PLANE RANT
+    </div>
+    <div class="secondarySpacer"></div>
+    
   </div>
-</div>
 </html>
